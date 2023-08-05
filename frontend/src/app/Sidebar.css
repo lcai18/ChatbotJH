@@ -1,0 +1,56 @@
+.sidebar-content {
+    order: 1;
+}
+.sidebar {
+    top:-20px;
+    width: 400px;
+    height: 100vh;
+    background-color: rgb(106, 0, 255);
+    overflow-y: auto;
+}
+.sidebarChat {
+    padding: 20px;
+    cursor: pointer;
+    align-self: flex-start;
+    position:relative;
+    border: solid;
+    border-color:rgb(106, 0, 255);
+    border-radius: 3px;
+    top: 100px;
+    width: 354px;
+}
+
+.sidebarChat__info h2 {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: white;
+}
+.sidebarChat__info {
+    margin-left:15px;
+    font-size:13px;
+    flex: 1;
+    color: gray;
+}
+.sidebar_headerLeft {
+    color: white;
+}
+.sidechat_timestamp {
+    color: white;
+    margin-left: 285px;
+}
+
+.sidebarChat:hover {
+    border-color:blue;
+}
+#plus-image-button {
+    position: relative;left:30px; top: 40px;
+    color: lightgray;
+}
+#close-sidebar-button {
+    position: relative;left:30px;top: 40px;
+
+}
+#sidebar-label {
+    position: relative;left:40px; top:40px; 
+    font-size: 2em;
+}

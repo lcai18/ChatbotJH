@@ -1,0 +1,5 @@
+Flask==2.0.1
+Flask-Cors==3.0.10
+openai==0.30.0
+clickhouse-driver==0.2.0
+tiktoken==0.6.0

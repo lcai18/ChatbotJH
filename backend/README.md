@@ -1,0 +1,42 @@
+# JHU Chatbot - Backend
+
+## Directory Structure
+- `/backend`
+    - `/api`
+        - `chatbot.py`
+    - `README.md`
+    - `app.py`
+    - `settings.py` (.gitignore)
+    - `/data.nosync` 
+        - `/studentaffairs-jhu-edu`
+            - `data.json` 
+            - `prompt-completion-pairs.json` 
+            - `error_links.txt`
+            - `success_links.txt`
+        - `/ventures-jhu-edu`
+            - `error_links.txt`
+            - `success_links.txt`
+            - `data.json` 
+            - `prompt-completion-pairs.json` 
+        - `/e-catalogue-jhu-edu`
+            - `error_links.txt`
+            - `success_links.txt`
+            - `data.json` 
+            - `prompt-completion-pairs.json` 
+        - `/engineering-jhu-edu`
+            - `error_links.txt`
+            - `success_links.txt`
+            - `data.json` 
+            - `prompt-completion-pairs.json`
+        - `/krieger-jhu-edu`
+            - `error_links.txt`
+            - `success_links.txt`
+            - `data.json` 
+            - `prompt-completion-pairs.json`
+        - `/library-jhu-edu`
+            - `error_links.txt`
+            - `success_links.txt`
+            - `data.json` 
+            - `prompt-completion-pairs.json`
+        - `/combined`
+            - `prompt-completion-pairs-combined.json`

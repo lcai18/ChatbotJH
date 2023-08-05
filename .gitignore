@@ -1,0 +1,6 @@
+*.bin
+.DS_Store
+*.json
+backend/settings.py
+notebooks/create-embeddings.ipynb
+notebooks/test-chatbot.ipynb
